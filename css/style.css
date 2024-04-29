@@ -1,0 +1,260 @@
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+hr {
+    /* border: 0; */
+    border-top: 1px #808080;
+    height: 1px;
+    /* display: block;
+    margin: 1em 0;
+    padding: 0; */
+  }
+
+.social-links img{
+
+    width: 10%;
+    padding: 5%;
+    display: inline;
+    object-fit:contain;
+    vertical-align: middle;
+    filter: grayscale();
+
+   /* box-shadow: 0.1rem 0.2rem 1.0rem 0.0rem rgba(0,0,0,0.2);*/
+    transition: 0.2s;
+    z-index: 0;
+}
+
+.social-links img:hover{
+
+    transform:scale(1.1);
+    transition: 0.2s;
+
+    /*box-shadow: 0.1rem 0.2rem 1.6rem 0.0rem rgba(0,0,0,0.2);*/
+}
+
+.quick-info{
+    color: #808080;
+    line-height: 0.5rem;
+    font-size: 1.05em;
+    padding-bottom: 0.1rem;
+}
+
+body {
+    font-family:'Georgia';
+    background-color: #FBFCFC;
+    padding: 1rem;
+    border-bottom-style: solid;
+    border-bottom-color: lightgray;
+    border-bottom-width: 1px;
+    margin-bottom:30px;
+    
+}
+
+.code-style{
+    font-family: monospace;
+}
+
+nav {
+    z-index: 20;
+    background-color: #FBFCFC;
+    color: #808080;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+
+    list-style-type: none;
+    align-content: middle;
+    justify-content: middle;
+
+    border-bottom-style: solid;
+    border-bottom-color: lightgray;
+    border-bottom-width: 1px;
+}
+.nav-bar{
+    max-width: 120vh;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+.main{
+    max-width: 120vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav a:link{
+    color: #808080;
+}
+nav a:hover{
+    color: #808080;
+    text-decoration: underline;
+}
+nav a:active{
+    color: #FBFCFC;
+}
+nav a{
+    text-decoration: none;
+    font-weight: lighter;
+}
+nav a:visited{
+    color: #808080;
+}
+
+nav h1{
+    margin-left: 1rem;
+    display: inline-block;
+    font-weight: lighter;
+    color: #808080;
+    
+}
+nav *{
+    vertical-align: middle;
+}
+nav .sidebar{
+    padding-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+nav .sidebar-item{
+    display: inline;
+    margin-top: 1rem;
+    margin-bottom: 1rem;    
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: lighter;
+    color: #808080;
+}
+
+.bio {
+    padding-top: 8rem;
+
+    display:flex;
+    flex-wrap:wrap;
+    align-content: left;
+    justify-content: left;
+}
+
+
+.profile-pic img{
+    width: 17rem;
+    height: 17rem;
+    margin-top: 2rem;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.left-bio{
+    width: 20rem;
+    left: 0;
+    flex:0;
+    margin-right: 2rem;
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    vertical-align: middle;
+}
+
+.right-bio{
+    min-width: 10rem;
+    display: inline-block;
+    flex: 60%;
+    color:#808080;
+    font-size:1.3em;
+}
+
+.right-bio .short-summary {
+    text-align: justify;
+  }
+
+
+.News h1, .Publications h1, .right-bio h3, .right-bio h4{
+    color:#808080;
+        font-size: 2rem;
+        font-weight:lighter;
+}
+
+.News ul{
+    list-style-type: none;
+}
+.News li{
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+.News .date{
+    display: inline-block;
+    width: 10rem;
+    color: #808080;
+    font-weight: bold;
+}
+.News .summary{
+    display: inline;
+}
+
+.News {
+    font-size:1.3em;
+}
+.paper-ref {
+    display: flex;
+
+    padding: 0.2rem;
+    align-content: center;
+    margin-bottom: 2rem;
+    font-size:1.3em;
+
+}
+
+
+
+
+.paper-ref img{
+    display: inline-block;
+    width: 10rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    object-fit:contain;
+    vertical-align: middle;
+
+    box-shadow: 0.1rem 0.2rem 1.0rem 0.0rem rgba(0,0,0,0.2);
+
+    transition: 0.2s;
+}
+
+.paper-ref img:hover{
+    transform:scale(1.1);
+    transition: 0.2s;
+
+    box-shadow: 0.1rem 0.2rem 1.6rem 0.0rem rgba(0,0,0,0.2);
+}
+
+.paper-ref .content{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.paper-ref .authors {
+    display: inline;
+    color: #808080;
+}
+.paper-ref .me {
+    display: inline;
+    /* font-weight: bold; */
+    text-decoration: underline;
+    font-weight: bolder;
+    color:black;
+}
+
+.paper-ref .conf{
+    font-style: italic;
+}
+.paper-ref .title{
+    font-weight: bolder;
+}
