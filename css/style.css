@@ -258,3 +258,25 @@ nav .sidebar-item{
 .paper-ref .title{
     font-weight: bolder;
 }
+
+
+footer {
+    position: relative;
+    height: 30px;
+    width: 100%;
+    background-color: #fff;
+    /* border-top-style: solid;
+    border-top-color: lightgray;
+    border-top-width: 1px; */
+    margin-top:0px;
+}
+
+p.copyright {
+    position: absolute;
+    width: 100%;
+    color: #808080;
+    line-height: 0px;
+    font-size: 1em;
+    text-align: left;
+    /* bottom:0; */
+}
